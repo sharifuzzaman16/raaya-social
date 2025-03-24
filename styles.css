@@ -58,7 +58,7 @@ body{
 }
 
 
-.nav-button .login-button{
+.login-button{
     background: none;
     padding: 8px 27px;
     border-radius: 24px;
@@ -419,4 +419,131 @@ color: #949494;
 
 .accordion-item.active .accordion-content {
     max-height: 500px;
+}
+
+.footer{
+    background: white;
+    padding: 46px 0;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-about-us{
+    max-width: 325px;
+}
+
+.footer-about-us img{
+    width: 100px;
+    margin-bottom: 32px;
+}
+
+.footer h3{
+    font-family: Poppins;
+font-weight: 600;
+font-size: 18px;
+line-height: 132%;
+letter-spacing: -2%;
+margin-bottom: 16px;
+text-transform: capitalize;
+color: #000000;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 212%;
+letter-spacing: 0%;
+color: #344054;
+}
+
+.footer-about-us p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 164%;
+letter-spacing: 0%;
+margin-bottom: 32px;
+color: #344054;
+}
+
+.footer-contact-us{
+    max-width: 295px;
+}
+
+.footer-contact-us input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    background: none;
+    font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -2%;
+padding: 8px;
+margin-bottom: 24px;
+}
+.footer-contact-us textarea{
+    width: 100%;
+    height: 88px;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    background: none;
+    font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -2%;
+padding: 8px;
+margin-bottom: 20px;
+}
+
+.footer-contact-us button{
+    background: #1D1D1D;
+    padding: 8px 0px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-family: Poppins;
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+letter-spacing: 0%;
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 8px;
+}
+
+.footer-divider{
+    border: 1px solid #D0D5DD;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.footer-bottom{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+color: #000000;
+}
+
+.footer-button{
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
