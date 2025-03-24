@@ -322,7 +322,6 @@ letter-spacing: 0%;
     animation-play-state: paused;
 }
 
-
 .faq-section{
     background: #F5F5F5;
     padding: 190px 0px;
@@ -872,4 +871,110 @@ line-height: 100%;
 letter-spacing: 0%;
 color: #000000;
 padding-top: 100px;
+}
+
+.how-we-work-section{
+    background: #F5F5F5;
+    padding: 100px 0px;
+}
+
+
+.how-we-work-card{
+    background: white;
+    width: 382px;
+height: 467px;
+padding-top: 20px;
+padding-right: 24px;
+padding-bottom: 32px;
+padding-left: 24px;
+border-radius: 12px;
+margin-bottom: 20px;
+}
+
+.how-we-work-card img{
+    width: 334px;
+    height: 185px;
+    margin-top: 24px;
+    border-radius: 12px;
+}
+
+.how-we-work-card-title{
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.how-we-work-card-title h4{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 20px;
+line-height: 164%;
+letter-spacing: 0%;
+color: #000000;
+}
+
+.how-we-work-card-title i{
+    font-size: 14px;
+    color: white;
+    background: #A554E6;
+    padding: 4px 6px;
+    border-radius: 50%;
+}
+
+.how-we-work-card p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+color: #344054;
+margin-top: 20px;
+}
+
+.how-we-work-subcard{
+    margin-top: 28px;
+    width: 378px;
+height: 153px;
+padding-top: 12px;
+padding-right: 24px;
+padding-bottom: 24px;
+padding-left: 16px;
+border-radius: 16px;
+border: 1px solid #D0D5DD;
+}
+
+.how-we-work-subcard h3{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 20px;
+line-height: 164%;
+letter-spacing: 0%;
+color: #000000;
+}
+
+.how-we-work-subcard p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+color: #344054;
+margin-top: 12px;
+}
+
+.how-we-work-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.how-we-work-section h2{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 48px;
+line-height: 124%;
+letter-spacing: -1%;
+text-align: center;
+vertical-align: middle;
+color: #000000;
+margin-bottom: 48px;
 }
