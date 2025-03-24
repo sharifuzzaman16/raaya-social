@@ -47,7 +47,7 @@ body{
     text-decoration: none;
     font-family: Poppins, sans-serif;
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
     color: #344054;
 }
 
@@ -57,22 +57,189 @@ body{
     gap: 12px;
 }
 
-.nav-button button{
+
+.nav-button .login-button{
     background: none;
     padding: 8px 27px;
     border-radius: 24px;
     font-size: 18px;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 160%;
     font-family: Nunito, sans-serif;
-}
-
-.nav-button .login-button{
     border: 1px solid #D0D5DD;
     color: #000000; 
 }
 
-.nav-button .book-button{
+.book-button{
+    background: none;
+    padding: 8px 27px;
+    border-radius: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+    font-family: Nunito, sans-serif;
     border: 1px solid #A657E7;
     color: #A657E7;
+}
+
+.header{
+    background: #F5F5F5;
+    min-height: 100vh;
+    padding-bottom: 20px;
+}
+
+.hero-container{
+    display: flex;
+    gap: 24px;
+    padding-top: 80px;
+}
+
+.hero-left{
+    width: 50%;
+}
+
+.hero-right{
+    width: 50%;
+}
+
+.all-talent{
+    width: fit-content;
+    background: white;
+    padding: 8px 16px;
+    border-radius: 16px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.all-talent i {
+    color: #344054;
+    font-size: 24px;
+}
+
+.all-talent p {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.hero-left-text h1{
+    font-family: Poppins;
+font-weight: 600;
+font-size: 48px;
+line-height: 65px;
+letter-spacing: -2%;
+margin-top: 12px;
+
+}
+
+.hero-left-text p{
+    font-family: Inter;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+letter-spacing: 0%;
+color: #344054;
+margin-top: 12px;
+}
+
+.hero-left-button{
+    display: flex;
+    gap: 24px;
+    margin-top: 28px;
+}
+
+.get-started-button{
+padding: 8px 27px;
+border: none;
+background: linear-gradient(177.38deg, #B564F7 8.45%, #6A2F9B 98.78%);
+border-radius: 24px;
+font-family: Poppins;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: 0%;
+color: white;
+}
+
+.hero-img-container {
+    position: relative;
+    width: 295px;
+    height: 397px;
+    border-radius: 20.55px;
+    background: url('./assets/hero-img.png') center/cover no-repeat;
+  }
+  
+  .hero-img-container::before {
+    content: "";
+    position: absolute;
+    border-radius: 20.55px;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.4) 100%);
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 22px;
+    padding-right: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+
+  
+.hero-right{
+    display: flex;
+    gap: 20px;
+}
+  
+.hero-bottom{
+    margin-top: 36px;
+}
+
+.hero-social{
+    width: 496px;
+height: 130px;
+background: white;
+padding: 20px 24px;
+border-radius: 16px;
+display: flex;
+flex-direction: column;
+place-self: end;
+}
+
+.hero-social p{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+}
+
+.hero-social-icons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.hero-social-icons img{
+    width: 50px;
+    height: 50px;
+    background-color: #E6E6E6;
+    padding: 10px;
+    border-radius: 100%;
 }
