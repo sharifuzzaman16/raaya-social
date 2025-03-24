@@ -687,3 +687,127 @@ color: #000000;
 .next { right: 10px; }
 
 
+.testimonial-cards-container{
+    margin-top: 32px;
+}
+
+.testimonial-card {
+    width: 586px;
+height: 267px;
+padding: 24px 37px;
+border-radius: 14px;
+background: white;
+border: 1px solid #009FE254;
+}
+
+.bottom-cards .testimonial-card {
+    width: 390px;
+height: 319px;
+padding: 24px 37px;
+border-radius: 14px;
+background: white;
+border: 1px solid #009FE254;
+}
+
+.testimonial-card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.bottom-cards .testimonial-card__header {
+    display: block;
+    margin-bottom: 24px;
+}
+
+
+.testimonial-card__user {
+    display: flex;
+    align-items: center;
+}
+
+
+.top-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-card__avatar {
+    width: 47px;
+    height: 47px;
+    border-radius: 100%;
+}
+
+.avatar-container{
+    border: 1px dashed #DF5929;
+    border-radius: 100%;
+    width: 57px;
+    height: 57px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 12px;
+}
+
+.testimonial-card__name {
+    font-family: Poppins;
+font-weight: 600;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #1B1D20;
+}
+
+.testimonial-card__position {
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #344054;
+}
+
+.testimonial-card__rating {
+    display: flex;
+    align-items: center;
+}
+.bottom-cards .testimonial-card__rating {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.testimonial-card__star {
+    color: #344054;
+    font-size: 17px;
+    margin-right: 6px;
+}
+
+.testimonial-card__rating-score {
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #1D2939;
+}
+
+.testimonial-card__text {
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #344054;
+}
+
+.testimonial-card__quote {
+    font-size: 20px;
+    color: #c0c0c0;
+}
+
+.bottom-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
