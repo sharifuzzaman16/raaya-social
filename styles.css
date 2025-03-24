@@ -322,6 +322,215 @@ letter-spacing: 0%;
     animation-play-state: paused;
 }
 
+.pricing-section{
+    background-color: #F5F5F5;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.pricing-header{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.pricing-header h1{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 48px;
+line-height: 124%;
+letter-spacing: -1%;
+color: #000000;
+}
+
+.pricing-header p{
+    font-family: Inter;
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+text-align: center;
+color: #344054;
+width: 741px;
+margin-top: 16px;
+}
+
+.pricing-wapper{
+width: 100%;
+height: 573px;
+background: white;
+padding: 28px 28px;
+border-radius: 16px;
+border: 1px solid #D0D5DD;
+margin-top: 48px;
+display: flex;
+align-items: center;
+}
+
+.pricing-left{
+    width: 50%;
+}
+
+.pricing-left-header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 8px;
+}
+
+.pricing-left-header h3{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 24px;
+line-height: 124%;
+letter-spacing: -1%;
+color: black;
+}
+
+.feature-title{
+    display: flex;
+    gap: 12px;
+    align-items: start;
+    margin-top: 24px;
+}
+
+.feature-title i{
+    color: white;
+    background: #1E9500;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.feature-title h4{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #101828;
+}
+
+.feature-title p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+letter-spacing: 0%;
+color: #344054;
+margin-top: 5px;
+}
+
+.pricing-right{
+    width: 50%;
+}
+
+
+.pricing-divider{
+    width: 336px;
+    height: 1px;
+    border: 1px solid transparent;
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 49.44%, rgba(102, 102, 102, 0) 100%);
+    border-image-slice: 1;
+    transform: rotate(90deg);
+}
+
+
+.pricing-box {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.pricing-option {
+    border: 1px solid #DADCE0;
+    padding: 16px 24px;
+    height: 130px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+}
+
+
+.pricing-option input {
+    display: none;
+}
+
+.pricing-option label {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.pricing-option span {
+    font-family: Poppins;
+font-weight: 500;
+font-size: 18px;
+line-height: 44px;
+letter-spacing: -2%;
+color: #1D2939;
+}
+
+.pricing-option p {
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 164%;
+letter-spacing: 0%;
+color: #344054;
+margin-top: 12px;
+}
+
+.most-popular {
+    background: #475467;
+    color: white !important;
+    font-family: Poppins;
+font-weight: 400;
+font-size: 12px;
+line-height: 100%;
+letter-spacing: 0%;
+position: absolute;
+top: 16px;
+left: 24px;
+    padding: 4px 12px;
+    border-radius: 6px;
+}
+
+.pricing-option .checkmark {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #DADCE0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.pricing-option:hover {
+    border-color: #6200EA;
+}
+
+.pricing-option input:checked + label .checkmark {
+    background: #6200EA;
+    border-color: #6200EA;
+}
+
+.pricing-option input:checked + label .checkmark::before {
+    content: "\f00c";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: white;
+    font-size: 12px;
+}
+
 .faq-section{
     background: #F5F5F5;
     padding: 190px 0px;
