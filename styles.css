@@ -811,3 +811,49 @@ color: #344054;
     justify-content: space-between;
     margin-top: 28px;
 }
+
+.why-shorts-section{
+    background: white;
+    padding: 40px 0px;
+}
+
+.why-shorts-container{
+ display: flex;
+ align-items: center;
+ gap: 48px;
+}
+
+.why-shorts-left{
+    width: 480px;
+    height: 501px;
+    border-radius: 16px;
+}
+
+.why-shorts-left img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.why-shorts-right{
+    width: 672px;
+}
+
+.why-shorts-right h2{
+    font-family: Inter;
+font-weight: 700;
+font-size: 48px;
+line-height: 124%;
+letter-spacing: -1%;
+color: #000000;
+}
+
+.why-shorts-right p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #344054;
+margin-top: 20px;
+}
