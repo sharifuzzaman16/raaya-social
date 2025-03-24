@@ -321,3 +321,102 @@ letter-spacing: 0%;
 .marquee:hover {
     animation-play-state: paused;
 }
+
+
+.faq-section{
+    background: #F5F5F5;
+    padding: 190px 0px;
+}
+
+.faq-title{
+    text-align: center;
+}
+
+.faq-title h2{
+    font-family: Poppins;
+font-weight: 700;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: -1%;
+color: #1E1E1E;
+}
+
+.faq-title p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+color: #1D2939;
+margin-top: 24px;
+margin-bottom: 40px;
+}
+
+
+.accordion-item {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.accordion-header {
+    background-color: white;
+    color: white;
+    padding: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+
+.accordion-header h3 {
+    font-family: Poppins;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+color: #1D2939;
+letter-spacing: 0%;
+
+}
+
+.accordion-icon {
+    color: #141517;
+    border: 1px solid #141517;
+    border-radius: 100%;
+    padding: 2px 2.5px;
+    transition: transform 0.3s ease;
+}
+
+.accordion-content {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-content-inner {
+    font-family: Poppins;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+padding: 24px;
+color: #949494;
+}
+
+.accordion-item.active .accordion-header {
+    background-color: white;
+}
+
+.accordion-item.active .accordion-icon {
+    transform: rotate(0deg);
+    color: #9E9E9E;
+    border-color: #9E9E9E;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 500px;
+}
