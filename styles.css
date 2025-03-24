@@ -85,7 +85,7 @@ body{
 .header{
     background: #F5F5F5;
     min-height: 100vh;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .hero-container{
@@ -242,4 +242,82 @@ color: #000000;
     background-color: #E6E6E6;
     padding: 10px;
     border-radius: 100%;
+}
+
+.partner-section{
+    background: white;
+    height: 226px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.partner-container{
+    display: flex;
+    align-items: center;
+}
+
+.stats-content{
+    width: 370px;
+}
+
+.stats-content h3{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0%;   
+}
+
+.stats-content p{
+    font-family: Poppins;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+
+.divider {
+    width: 130px;
+    height: 1px;
+    border: 1px solid transparent;
+    border-image-source: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 49.44%, rgba(102, 102, 102, 0) 100%);
+    border-image-slice: 1;
+    transform: rotate(90deg);
+}
+
+.partner-logo {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    white-space: nowrap;
+}
+
+.marquee {
+    display: flex;
+    gap: 27px;
+    width: max-content;
+    animation: marquee 10s linear infinite;
+}
+
+.marquee img {
+    height: 50px;
+    width: auto;
+    flex-shrink: 0;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.marquee:hover {
+    animation-play-state: paused;
 }
