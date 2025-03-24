@@ -857,3 +857,19 @@ letter-spacing: 0%;
 color: #344054;
 margin-top: 20px;
 }
+
+
+.portfolio-section{
+    background: #F5F5F5;
+    padding-bottom: 148px;
+}
+
+.portfolio-container h2{
+    font-family: Poppins;
+font-weight: 600;
+font-size: 48px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+padding-top: 100px;
+}
