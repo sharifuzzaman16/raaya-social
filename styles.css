@@ -636,6 +636,7 @@ letter-spacing: 0%;
 .pricing-option label {
     width: 100%;
     display: flex;
+    margin-top: 24px;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
@@ -664,10 +665,21 @@ letter-spacing: 0%;
     font-weight: 400;
     font-size: 12px;
     position: absolute;
-    top: 16px;
+    top: 8px;
     left: 24px;
-    padding: 4px 12px;
+    padding: 2.5px 12px;
     border-radius: 6px;
+}
+
+.portfolio-card-title{
+    font-family: Poppins;
+font-weight: 500;
+font-size: 20px;
+line-height: 164%;
+letter-spacing: 0%;
+text-align: center;
+color: #344054;
+margin-top: 12px;
 }
 
 .pricing-option .checkmark {
@@ -770,6 +782,7 @@ line-height: 100%;
 letter-spacing: -1%;
 color: #1E1E1E;
 }
+
 
 .faq-title p{
     font-family: Poppins;
