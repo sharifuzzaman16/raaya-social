@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const accordionItems = document.querySelectorAll('.accordion-item');
 
     // Initialize first item as open
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     accordionItems.forEach(item => {
         const header = item.querySelector('.accordion-header');
         const icon = item.querySelector('.accordion-icon');
-        
+
         header.addEventListener('click', () => {
             // Close all other items
             accordionItems.forEach(otherItem => {
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Toggle current item
             item.classList.toggle('active');
-            
+
             // Change icon and set height
             if (item.classList.contains('active')) {
                 icon.classList.replace('fa-plus', 'fa-minus');
@@ -92,3 +92,16 @@ document.querySelector('.testimonial-slider-container').addEventListener('mousel
 nextBtn.addEventListener('click', nextSlide);
 prevBtn.addEventListener('click', prevSlide);
 
+document.querySelector(".hamburger").addEventListener("click", function () {
+    document.querySelector(".mobile-menu").classList.toggle("active");
+});
+
+// Close menu when clicking outside
+document.addEventListener("click", function (event) {
+    const menu = document.querySelector(".mobile-menu");
+    const hamburger = document.querySelector(".hamburger");
+
+    if (!menu.contains(event.target) && !hamburger.contains(event.target)) {
+        menu.classList.remove("active");
+    }
+});
