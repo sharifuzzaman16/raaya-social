@@ -466,6 +466,46 @@ letter-spacing: 0%;
     animation-play-state: paused;
 }
 
+
+@media (max-width: 1024px) {
+    .partner-section {
+        padding: 40px 0;
+    }
+
+    .stats-content h3 {
+        font-size: 36px;
+    }
+
+    .stats-content p {
+        font-size: 14px;
+    }
+
+    .partner-logo .marquee img {
+        width: 120px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .partner-section {
+        padding: 20px 0;
+    }
+
+    .stats-content h3 {
+        font-size: 28px;
+    }
+
+    .stats-content p {
+        font-size: 12px;
+    }
+
+    .partner-logo .marquee img {
+        width: 100px;
+        height: auto;
+    }
+}
+
+
 .pricing-section{
     background-color: #F5F5F5;
     padding-top: 100px;
